@@ -78,3 +78,29 @@
 .desc-head {
   color: var(--accent-color);
 }
+
+@media (max-width: 768px) {
+  .skill-icon{
+    font-size: 20px;
+  }
+  .skill-text{
+    font-size: 12px;
+  }
+  .skill-grid {
+    gap: 0rem;
+  }
+  .skills-content{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .skills-image {
+    width: 40vw;
+    margin-left: 18%;
+    margin-bottom: 15px;
+  }
+  .skill-desc{
+    padding-left: 0px;
+    font-size: 20px;
+  }
+}
