@@ -94,3 +94,27 @@ h4{
   color: var(--text-color);
   margin: 2px;
 }
+
+@media (max-width: 768px) {
+  .headings{
+    font-size: 8vw;
+  }
+
+  h4{
+    font-size: 25px;
+  }
+
+  .tool{
+    font-size: 12px;
+  }
+
+  .portfolio-description{
+    font-size: 20px;
+  }
+
+  .icon{
+    width: 18px;
+    height: 18px;
+  }
+
+}
