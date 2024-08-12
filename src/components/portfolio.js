@@ -1,8 +1,8 @@
 import React from 'react'
 import './portfolio.css'
-import EduEnroll from './assets/EduEnroll.mp4'
-import NewsMonkey from './assets/NewsMonkey.mp4'
-import TextUtils from './assets/TextUtils.mp4'
+import EduEnroll from './assets/EduEnroll_1.mp4'
+import NewsMonkey from './assets/NewsMonkey_1.mp4'
+import TextUtils from './assets/TextUtils_1.mp4'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons'
