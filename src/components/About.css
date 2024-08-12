@@ -1,0 +1,19 @@
+  .about{
+    font-size: 36px;
+    padding: 10px;
+    margin: 5px;
+    font-family: var(--font-family);
+    color: var(--font-color);
+    margin-bottom: 0;
+  }
+
+  .word:hover {
+    color: var(--highlight-color);
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+
+  .about-container{
+    background-color: var(--primary-bg);
+    padding: 20px;
+  }

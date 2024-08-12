@@ -1,0 +1,96 @@
+body {
+  background-color: var(--primary-bg);
+}
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem;
+  font-family: var(--font-family);
+}
+
+.portfolio-card {
+  background-color: var(--secondary-bg);
+  border: 5px solid var(--accent-color);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  width: 400px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+}
+
+.portfolio-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-media {
+  width: 100%;
+  height: auto;
+  border: 5px solid var(--secondary-bg);
+  /* margin-top: 6px; */
+}
+
+.portfolio-tools {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.tool {
+  padding: 0.3rem 0.8rem;
+  font-family: var(--font-family);
+  font-size: 16px;
+  color: var(--secondary-bg);
+  background-color: var(--accent-color);
+  border-radius: 20px;
+  transition: background-color 0.3s, transform 0.3s;
+  font-size: 18.5px;
+}
+
+.tool:hover {
+  background-color: var(--highlight-color); /* Change to a lighter or contrasting color */
+  transform: scale(1.1);
+}
+
+.portfolio-description {
+  padding: 1rem;
+  font-family: var(--font-family);
+  font-size: 26px;
+  color: var(--text-color);
+}
+
+.portfolio-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+  margin-bottom: 15px;
+  color: var(--highlight-color);
+  /* transition: background-color 0.3s, transform 0.3s; */
+}
+
+.icon:hover {
+  color: var(--accent-color);
+}
+
+h4{
+  font-size: 35px;
+  color: var(--text-color);
+  margin: 2px;
+}

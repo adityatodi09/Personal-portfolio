@@ -1,0 +1,86 @@
+.resume-container {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background-color: var(--primary-bg);
+  }
+
+  .resume-description {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    animation: fadeInUp 1s ease-out;
+    font-family: var(--font-family);
+  }
+  
+  .button-container {
+    display: inline-block;
+    animation: fadeIn 1.5s ease-out;
+    font-family: var(--font-family);
+    padding-bottom: 40px
+  }
+  
+  .resume-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    font-size: 21px;
+    color: var(--secondary-bg);
+    background-color: var(--highlight-color);
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .resume-button i {
+    margin-right: 8px;
+  }
+
+  .pdf-icon {
+    margin-right: 8px; /* Add margin to create space between the icon and the text */
+  }
+  
+  .resume-button:hover {
+    background-color: var(--accent-color);
+    transform: translateY(-5px);
+  }
+  
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+
+ 

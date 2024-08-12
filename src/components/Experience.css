@@ -1,0 +1,103 @@
+.experience-container {
+  padding: 20px;
+  font-family: var(--font-family);
+  background-color: var(--primary-bg);
+}
+
+
+.exp_card {
+  position: relative; 
+  display: flex;
+  align-items: flex-start;
+  border: 3px solid var(--highlight-color);
+  border-radius: 16px;
+  padding: 20px;
+  margin: 20px;
+  /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+}
+
+/* .exp_card:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+} */
+
+.view-button-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 21px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  background-color: var(--highlight-color);
+  color: var(--secondary-bg);
+}
+
+.button:hover {
+  background-color: var(--accent-color);
+}
+
+.exp-image {
+  width: 8 rem;
+  height: 8rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.exp-details {
+  display: flex;
+  flex-direction: column;
+  color: var(--text-color);
+}
+
+.exp-details h2 {
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 36px;
+  color: var(--accent-color);
+  
+}
+
+.exp-position {
+  font-size: 30px;
+  margin-top: 0;
+  padding-top: 0;
+  font-weight: 300;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color: var(--highlight-color);
+}
+
+.exp-duration {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: var(--accent-color);
+}
+
+.exp-summary {
+  font-size: 30px;
+  line-height: 1.6;
+  /* color: var(--text-color); */
+}
+
+.exp-summary ul {
+  margin-left: 20px;
+  list-style: disc;
+}
+
+.exp-summary li {
+  margin-bottom: 10px;
+
+}
+
+ul li::marker {
+  color: var(--highlight-color); /* Change this to the desired color */
+}
+

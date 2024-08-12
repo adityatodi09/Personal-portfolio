@@ -1,0 +1,45 @@
+  .typing-animation-container {
+  text-align: center;
+  padding: 2rem;
+  font-family: 'VT323', monospace;
+  background-color: var(--primary-bg);
+}
+
+.typing-animation {
+  font-size: 70px;
+  color: var(--accent-color);
+  
+}
+
+.arrow {
+  font-size: 3rem;
+  margin-top: 1rem;
+  display: inline-block; /* Needed for transform to work */
+  transform: rotate(90deg); /* Rotate the arrow 90 degrees */
+  animation: bounce 2s infinite;
+  font-weight: bold;
+  color: var(--accent-color);
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0) rotate(90deg); /* Ensure rotation stays during bounce */
+  }
+  40% {
+    transform: translateY(-10px) rotate(90deg); /* Ensure rotation stays during bounce */
+  }
+  60% {
+    transform: translateY(-5px) rotate(90deg); /* Ensure rotation stays during bounce */
+  }
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.center-image {
+  max-width: 100%;
+  height: auto;
+}

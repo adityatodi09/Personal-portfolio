@@ -1,0 +1,40 @@
+
+.navbar {
+    color: #fff;
+    /* padding: 1rem; */
+    /* margin-top: 10px; */
+    background-color: var(--primary-bg) !important;
+    font-family: var(--font-family); 
+    font-size: 24px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 15rem;
+  }
+  
+  .navbar nav ul li a {
+    /* color: var(--highlight-color); */
+    text-decoration: none;
+    font-weight: bold;
+    font-family: var(--font-family);
+  }
+
+  .navbar-brand {
+    font-size: 29px;
+    color: var(--highlight-color) !important;
+    font-style: italic;
+  }
+  
+  .nav-link {
+    color: var(--highlight-color) !important;
+    font-size: 29px;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
