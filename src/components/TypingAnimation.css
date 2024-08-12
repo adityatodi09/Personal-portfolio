@@ -59,7 +59,7 @@
   }
 
   .center-image {
-    width: 80%; /* Limit image width on smaller devices */
+    width: 60%; /* Limit image width on smaller devices */
   }
 }
 
@@ -74,6 +74,6 @@
   }
 
   .center-image {
-    width: 70%; /* Further limit image width on very small devices */
+    width: 50%; /* Further limit image width on very small devices */
   }
 }
