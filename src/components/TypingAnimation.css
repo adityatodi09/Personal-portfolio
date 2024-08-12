@@ -1,4 +1,4 @@
-  .typing-animation-container {
+.typing-animation-container {
   text-align: center;
   padding: 2rem;
   font-family: 'VT323', monospace;
@@ -8,7 +8,6 @@
 .typing-animation {
   font-size: 70px;
   color: var(--accent-color);
-  
 }
 
 .arrow {
@@ -42,4 +41,39 @@
 .center-image {
   max-width: 100%;
   height: auto;
+}
+
+/* Media query for smaller devices */
+@media (max-width: 768px) {
+  .typing-animation {
+    font-size: 50px; /* Reduce font size for smaller screens */
+    padding: 0 1rem; /* Add padding for better text fit */
+  }
+
+  .arrow {
+    font-size: 2rem; /* Reduce arrow size */
+  }
+
+  .typing-animation-container {
+    padding: 1rem; /* Reduce padding */
+  }
+
+  .center-image {
+    width: 80%; /* Limit image width on smaller devices */
+  }
+}
+
+@media (max-width: 480px) {
+  .typing-animation {
+    font-size: 18px; /* Further reduce font size for extra small screens */
+    padding: 0px; /* Add more padding reduction */
+  }
+
+  .arrow {
+    font-size: 1.5rem; /* Further reduce arrow size */
+  }
+
+  .center-image {
+    width: 70%; /* Further limit image width on very small devices */
+  }
 }
