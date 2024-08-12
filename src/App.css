@@ -30,56 +30,12 @@
     color: var(--accent-color);
   }
 
- 
-  
-  /* footer {
-    background-color: var(--secondary-bg);
-    color: var(--secondary-text-color);
-  } */
-
   footer {
     background-color: var(--accent-color);
   }
 
-  /* body {
-    background-color: var(--primary-bg);
-    color: var(--text-color);
-    font-family: 'VT323', monospace; 
+  @media (max-width: 768px){
+    .brackets{
+      font-size: 22px;
+    }
   }
-  
-  h1, h2, h3, h4, h5, h6, .typing-animation, .arrow {
-    color: var(--accent-color); 
-  }
-  
-  a {
-    color: var(--highlight-color);
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  a:hover {
-    color: var(--accent-color);
-  }
-  
-  button {
-    background-color: var(--accent-color);
-    color: var(--primary-bg);
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  button:hover {
-    background-color: var(--highlight-color);
-  }
-  
-  footer, .exp_card {
-    background-color: var(--secondary-bg);
-    color: var(--secondary-text-color);
-  }
-
-  .skill-desc{
-    color: var(--secondary-bg);
-  }
-   */
