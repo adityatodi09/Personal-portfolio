@@ -50,7 +50,7 @@ function Portfolio() {
         {projects.map((project, index) => (
           <div key={index} className="portfolio-card">
             <a href={project.link} target="_blank" rel="noopener noreferrer">
-              <video src={project.media} alt={project.title} className='portfolio-media' autoPlay loop muted />
+              <video src={project.media} alt={project.title} className='portfolio-media' autoPlay controls loop muted />
             </a>
             <h4>{project.title}</h4>
             <div className="portfolio-tools">
