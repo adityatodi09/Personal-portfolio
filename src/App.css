@@ -1,0 +1,85 @@
+:root {
+    --primary-bg: #1E1E1E; /* Dark Charcoal */
+    --secondary-bg: #2C2C2C; /* Jet Black */
+    --accent-color: #00A8E8; /* Cyber Cyan */
+    --text-color: #E0E0E0; /* Light Gray */
+    --secondary-text-color: #B0B0B0; /* Medium Gray */
+    --highlight-color: #FFC857; /* Electric Yellow */
+    --font-family: 'VT323', monospace;
+    --bracket-font-size: 50px;
+    --heading-font-size: 8vw;
+    --font-color: #fff; 
+  }
+
+  .brackets {
+    font-family: var(--font-family);
+    font-size: var(--bracket-font-size);
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 0px;
+    font-weight: bold;
+    color: var(--accent-color);
+  }
+
+  .headings {
+    font-size: var(--heading-font-size);
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    font-family: var(--font-family);
+    color: var(--accent-color);
+  }
+
+ 
+  
+  /* footer {
+    background-color: var(--secondary-bg);
+    color: var(--secondary-text-color);
+  } */
+
+  footer {
+    background-color: var(--accent-color);
+  }
+
+  /* body {
+    background-color: var(--primary-bg);
+    color: var(--text-color);
+    font-family: 'VT323', monospace; 
+  }
+  
+  h1, h2, h3, h4, h5, h6, .typing-animation, .arrow {
+    color: var(--accent-color); 
+  }
+  
+  a {
+    color: var(--highlight-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: var(--accent-color);
+  }
+  
+  button {
+    background-color: var(--accent-color);
+    color: var(--primary-bg);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: var(--highlight-color);
+  }
+  
+  footer, .exp_card {
+    background-color: var(--secondary-bg);
+    color: var(--secondary-text-color);
+  }
+
+  .skill-desc{
+    color: var(--secondary-bg);
+  }
+   */
