@@ -13,13 +13,7 @@
   border-radius: 16px;
   padding: 20px;
   margin: 20px;
-  /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
 }
-
-/* .exp_card:hover {
-  transform: translateY(-20px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
-} */
 
 .view-button-container {
   position: absolute;
@@ -101,3 +95,46 @@ ul li::marker {
   color: var(--highlight-color); /* Change this to the desired color */
 }
 
+@media (max-width: 768px) {
+  .exp_card {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 20px 10px;
+  }
+
+  .exp-image {
+    margin-bottom: 20px; /* Add space below image */
+    margin-right: 0; /* Remove right margin */
+  }
+
+  .exp-details {
+    align-items: center; /* Center text in smaller devices */
+    text-align: center; /* Center-align all text inside exp-details */
+  }
+
+  .exp-details h2 {
+    font-size: 20px; /* Smaller font size */
+  }
+
+  .exp-position {
+    font-size: 20px; 
+  }
+
+  .exp-duration {
+    font-size: 20px;
+    margin-bottom: 75px; 
+  }
+
+  .exp-summary {
+    font-size: 18px; 
+  }
+
+  .view-button-container{
+    margin-top: 245px;
+    margin-right: 59px;
+  }
+
+  .button{
+    font-size: 15px;
+  }
+}
