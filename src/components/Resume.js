@@ -2,6 +2,7 @@ import React from 'react';
 import './Resume.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
+import resume from './assets/resume (1).pdf'
 
 function Resume() {
   return (
@@ -12,7 +13,7 @@ function Resume() {
         Dive into my professional world! Discover my skills, experiences, and projects that highlight my journey in the tech world. Check out my resume to learn more about how I can contribute to your team.
       </p>
       <div className="button-container">
-        <a href='https://drive.google.com/file/d/1F6WWZUlzU2t3RxLN_xG2J01erjenp9Bs/view?usp=sharing' target="_blank" rel="noopener noreferrer" className="resume-button">
+        <a href={resume} target="_blank" rel="noopener noreferrer" className="resume-button">
           <FontAwesomeIcon icon={faFilePdf} className="pdf-icon" /> View Resume
         </a>
       </div>
