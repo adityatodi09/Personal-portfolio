@@ -1,6 +1,7 @@
 import React from 'react';
 import './Experience.css';
 import prismlogo from './assets/prismitsystems_logo.jpeg';
+import certificate from './assets/certificate.pdf'
 
 function Experience() {
   return (
@@ -8,14 +9,14 @@ function Experience() {
       <div className="brackets">{"{"} {'$'} {"}"}</div>
       <h2 className='headings'>&lt;aditya.dev/experiences&gt;</h2>
       <div className='exp_card'>
-      <a href='https://drive.google.com/file/d/1hfPGFTkZY9aqv9NMQf-JFevzBrDCgJR8/view?usp=sharing' target="_blank" rel="noopener noreferrer" className='view-button-container'>
-            <button className='button'>View Certificate</button>
-          </a>
         <img src={prismlogo} alt="prism-logo" className='exp-image' />
         <div className="exp-details">
           <h2>PRISM I.T. SYSTEMS, SURAT</h2>
           <p className='exp-position'>ReactJs Developer Intern</p>
           <p className='exp-duration'>May 2024 - June 2024</p>
+          <a href={certificate} target="_blank" rel="noopener noreferrer" className='view-button-container'>
+            <button className='button'>View Certificate</button>
+          </a>
           <ul className='exp-summary'>
             <li>Completed a summer internship as a ReactJS Developer Intern at Prism I.T. Systems in Surat, where I focused on advancing my front-end development skills.</li>
             <li>Acquired comprehensive knowledge of ReactJS, mastering essential concepts such as hooks, states, props, and PropTypes. This foundational understanding enabled me to build interactive and dynamic user interfaces.</li>
