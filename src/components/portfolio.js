@@ -1,11 +1,11 @@
-import React from 'react'
-import './portfolio.css'
-import EduEnroll from './assets/EduEnroll_1.mp4'
-import NewsMonkey from './assets/NewsMonkey_1.mp4'
-import TextUtils from './assets/TextUtils_1.mp4'
+import React from 'react';
+import './portfolio.css';
+import EduEnroll from './assets/freecompress-EduEnroll_1.mp4';
+import NewsMonkey from './assets/freecompress-NewsMonkey_1.mp4';
+import TextUtils from './assets/freecompress-TextUtils_1.mp4';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faGlobe } from '@fortawesome/free-solid-svg-icons'
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 const projects = [
   {
@@ -60,12 +60,14 @@ function Portfolio() {
             </div>
             <p className="portfolio-description">{project.description}</p>
             <div className="portfolio-links">
-              <a href={project.github} target="_blank" rel="noopener noreferrer">
+              <a href={project.github} target="_blank" rel="noopener noreferrer" className="button">
                 <FontAwesomeIcon icon={faGithub} className='icon' />
+                <span className="button-text">Code vault access</span>
               </a>
               {project.link && 
-                <a href={project.link} target="_blank" rel="noopener noreferrer">
+                <a href={project.link} target="_blank" rel="noopener noreferrer" className="button">
                   <FontAwesomeIcon icon={faGlobe} className='icon' />
+                  <span className="button-text">Experience the platform</span>
                 </a>
               }
             </div>
@@ -77,4 +79,3 @@ function Portfolio() {
 }
 
 export default Portfolio;
-
