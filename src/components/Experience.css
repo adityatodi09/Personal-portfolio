@@ -4,7 +4,6 @@
   background-color: var(--primary-bg);
 }
 
-
 .exp_card {
   position: relative; 
   display: flex;
@@ -38,7 +37,7 @@
 }
 
 .exp-image {
-  width: 8 rem;
+  width: 8rem;
   height: 8rem;
   border-radius: 50%;
   object-fit: cover;
@@ -56,7 +55,6 @@
   font-weight: 400;
   font-size: 36px;
   color: var(--accent-color);
-  
 }
 
 .exp-position {
@@ -78,7 +76,6 @@
 .exp-summary {
   font-size: 30px;
   line-height: 1.6;
-  /* color: var(--text-color); */
 }
 
 .exp-summary ul {
@@ -88,11 +85,10 @@
 
 .exp-summary li {
   margin-bottom: 10px;
-
 }
 
 ul li::marker {
-  color: var(--highlight-color); /* Change this to the desired color */
+  color: var(--highlight-color);
 }
 
 @media (max-width: 768px) {
@@ -122,19 +118,18 @@ ul li::marker {
 
   .exp-duration {
     font-size: 20px;
-    margin-bottom: 75px; 
+    margin-bottom: 20px; 
   }
 
-  .exp-summary {
-    font-size: 18px; 
+  .view-button-container {
+    position: static; /* Remove absolute positioning */
+    align-self: center; /* Center the button within the flex container */
+    margin-top: 10px; /* Add space above the button */
+    margin-bottom: 20px; /* Add space below the button */
   }
 
-  .view-button-container{
-    margin-top: 245px;
-    margin-right: 59px;
-  }
-
-  .button{
+  .button {
     font-size: 15px;
+    
   }
 }
