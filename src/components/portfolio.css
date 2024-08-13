@@ -1,6 +1,7 @@
 body {
   background-color: var(--primary-bg);
 }
+
 .portfolio-container {
   display: flex;
   flex-wrap: wrap;
@@ -33,7 +34,6 @@ body {
   width: 100%;
   height: auto;
   border: 5px solid var(--secondary-bg);
-  /* margin-top: 6px; */
 }
 
 .portfolio-tools {
@@ -58,7 +58,7 @@ body {
 }
 
 .tool:hover {
-  background-color: var(--highlight-color); /* Change to a lighter or contrasting color */
+  background-color: var(--highlight-color);
   transform: scale(1.1);
 }
 
@@ -71,50 +71,70 @@ body {
 
 .portfolio-links {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 1rem;
   margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: var(--secondary-bg);
+  background-color: var(--highlight-color);
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--accent-color);
+  transform: scale(1.05);
+}
+
+.button-text {
+  margin-left: 10px;
+  font-size: 15px;
 }
 
 .icon {
-  width: 28px;
-  height: 28px;
-  margin-bottom: 15px;
-  color: var(--highlight-color);
-  /* transition: background-color 0.3s, transform 0.3s; */
+  width: 24px;
+  height: 24px;
+  color: var(--secondary-bg);
 }
 
-.icon:hover {
-  color: var(--accent-color);
-}
-
-h4{
+h4 {
   font-size: 35px;
   color: var(--text-color);
   margin: 2px;
 }
 
 @media (max-width: 768px) {
-  .headings{
+  .headings {
     font-size: 8vw;
   }
 
-  h4{
+  h4 {
     font-size: 25px;
   }
 
-  .tool{
+  .tool {
     font-size: 12px;
   }
 
-  .portfolio-description{
+  .portfolio-description {
     font-size: 20px;
   }
 
-  .icon{
+  .icon {
     width: 18px;
     height: 18px;
   }
-
 }
