@@ -51,14 +51,14 @@ body {
   font-family: var(--font-family);
   font-size: 16px;
   color: var(--secondary-bg);
-  background-color: var(--accent-color);
+  background-color: var(--highlight-color);
   border-radius: 20px;
   transition: background-color 0.3s, transform 0.3s;
   font-size: 18.5px;
 }
 
 .tool:hover {
-  background-color: var(--highlight-color);
+  background-color: var(--accent-color);
   transform: scale(1.1);
 }
 
