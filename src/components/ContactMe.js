@@ -19,7 +19,7 @@ function ContactMe() {
       <div className="contact-details">
         <div className="contact-item">
           <FontAwesomeIcon icon={faEnvelope} className="contact-icon" />
-          <a href="mailto:adityatodi1509@gmail.com" className="contact-link">adityatodi1509@gmail.com</a>
+          <a href="mailto:contactme@adityatodi.tech" className="contact-link">contactme@adityatodi.tech</a>
         </div>
         <div className="contact-item">
           <FontAwesomeIcon icon={faPhone} className="contact-icon" />
