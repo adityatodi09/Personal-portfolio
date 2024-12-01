@@ -2,7 +2,7 @@ import React from 'react';
 import './Resume.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
-import resume from './assets/resume (1).pdf'
+import resume from './assets/ADITYA TODI FRONTEND DEVELOPER RESUME.pdf'
 
 function Resume() {
   return (
