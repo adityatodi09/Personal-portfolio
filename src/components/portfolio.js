@@ -11,8 +11,8 @@ const projects = [
   {
     title: ' EduEnroll - Seamless Enrollment management system',
     media: EduEnroll,
-    link: 'https://edu-enroll.vercel.app',
-    github: 'https://github.com/adityatodi09/EduEnroll/home',
+    link: 'https://edu-enroll.vercel.app/home',
+    github: 'https://github.com/adityatodi09/EduEnroll',
     tools: ['React', 'React Router', 'Bootstrap', 'LocalStorage', 'Create React App', 'Babel', 'Webpack'],
     description: ( 
       <>
