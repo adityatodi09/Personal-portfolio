@@ -16,10 +16,8 @@ const projects = [
     tools: ['React', 'React Router', 'Bootstrap', 'LocalStorage', 'Create React App', 'Babel', 'Webpack'],
     description: ( 
       <>
-      A front-end student management system built using React, featuring user authentication, student enrollment, and profile management. Utilizes React Router for seamless navigation and local storage for data persistence, providing an intuitive interface for managing student data efficiently. <br />
-      For accessing EduEnroll portal the credentials are given below : <br />
-      Username : admin <br />
-      Password : admin <br />
+      Implemented EduEnroll, a student management system using ReactJS and Bootstrap, focusing on efficient student data management and enrollment tested with the data of 10,000+ students. <br />
+      Achieved a 25% reduction in data retrieval time by optimizing the JSON structure, making it more efficient for real-time data updates and status management (active/inactive). <br />
       </>
     )
   },
@@ -28,7 +26,13 @@ const projects = [
     media: NewsMonkey,
     github: 'https://github.com/adityatodi09/NewsMonkey-React',
     tools: ['React', 'React Router', 'JavaScript', 'Fetch API', 'PropTypes', 'Bootstrap'],
-    description: ' NewsMonkey is a React-based web app that delivers real-time news from various categories and countries using the News API. It features dynamic routing with React Router, infinite scrolling for seamless content loading, and a sleek, responsive design with Bootstrap. The app allows users to select news based on categories and countries, and includes a progress bar for enhanced user experience.',
+    description: (
+      <>
+      Developed NewsMonkey, a real-time news aggregator app using ReactJS and Bootstrap, achieving 80% faster load times through the integration of infinite scroll and category filters. <br/>
+      Integrated a feature to redirect users to the original news source, improving user retention and interaction by 40%. <br/>
+      </>
+    )
+
   },
   {
     title: ' TextUtils: Versatile Tool for Text Transformation',
