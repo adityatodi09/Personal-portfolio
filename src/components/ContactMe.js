@@ -26,10 +26,10 @@ function ContactMe() {
           <a href="tel:+91-9173986591" className="contact-link">+91-9173986591</a>
         </div>
         <div className="contact-socials">
-          <a href="https://www.linkedin.com/in/aditya-todi-9b861b290/" target="_blank" rel="noopener noreferrer" className="social-icon-link">
+          <a href="https://www.linkedin.com/in/adityatodi09/" target="_blank" rel="noopener noreferrer" className="social-icon-link">
             <FontAwesomeIcon icon={faLinkedin} className="social-icon" />
           </a>
-          <a href="https://github.com/1-333" target="_blank" rel="noopener noreferrer" className="social-icon-link">
+          <a href="https://github.com/adityatodi09" target="_blank" rel="noopener noreferrer" className="social-icon-link">
             <FontAwesomeIcon icon={faGithub} className="social-icon" />
           </a>
           <a href="https://www.instagram.com/_.adii.09/" target="_blank" rel="noopener noreferrer" className="social-icon-link">
