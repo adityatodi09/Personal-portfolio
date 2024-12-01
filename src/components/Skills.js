@@ -8,9 +8,8 @@ import {
   faBootstrap,
   faGithub,
   faGitAlt,
-  faFigma,
 } from '@fortawesome/free-brands-svg-icons';
-import { faServer, faDatabase } from '@fortawesome/free-solid-svg-icons';
+import { faServer } from '@fortawesome/free-solid-svg-icons';
 import './Skills.css';
 import Designer1 from './assets/Man_on_table_coding.png'
 
@@ -52,14 +51,6 @@ function Skills() {
           <FontAwesomeIcon icon={faServer} className="skill-icon" />
           <span className="skill-text">Web Hosting</span>
         </li>
-        <li className="skill-item">
-          <FontAwesomeIcon icon={faFigma} className="skill-icon" />
-          <span className="skill-text">Figma</span>
-        </li>
-        <li className="skill-item">
-          <FontAwesomeIcon icon={faDatabase} className="skill-icon" />
-          <span className="skill-text">MongoDB</span>
-        </li>
       </ul>
       <div className="skills-content">
       <div className="skills-image">
@@ -71,12 +62,6 @@ function Skills() {
       
       <strong className='desc-head'># &lt; Version Control & Management &gt; : </strong>
       Git, GitLab and GitHub for efficiently managing code versions, collaborating on projects, and maintaining repositories. <br />
-      
-      <strong className='desc-head'># &lt; Design Tools &gt; : </strong>
-      Expert in using design tools like Figma for creating visually appealing UI/UX. <br />
-      
-      <strong className='desc-head'># &lt; Database &gt; : </strong>
-      Skilled in working with MongoDB for scalable web apps. <br />
       
       <strong className='desc-head'># &lt; Others &gt; : </strong>
       Knowledgeable in deploying and maintaining web applications on various hosting platforms. <br />
