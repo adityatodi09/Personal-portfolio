@@ -18,12 +18,10 @@ function Experience() {
             <button className='button'>View Certificate</button>
           </a>
           <ul className='exp-summary'>
-            <li>Completed a summer internship as a ReactJS Developer Intern at Prism I.T. Systems in Surat, where I focused on advancing my front-end development skills.</li>
-            <li>Acquired comprehensive knowledge of ReactJS, mastering essential concepts such as hooks, states, props, and PropTypes. This foundational understanding enabled me to build interactive and dynamic user interfaces.</li>
-            <li>Developed proficiency in both function-based and class-based components, learning to efficiently structure React applications for scalability and maintainability.</li>
-            <li>Leveraged the Bootstrap CSS framework to ensure all projects were responsive and visually appealing, adhering to modern web design principles.</li>
-            <li>Collaborated with a team of experienced developers, enhancing my ability to work in a team environment and adapt to industry-standard workflows and tools.</li>
-            <li>This internship significantly bolstered my confidence in front-end development, deepened my understanding of the ReactJS ecosystem, and prepared me for future roles in web development.</li>
+            <li>Gained hands-on experience with ReactJS, learning props, state management, components, lifecycle methods, and hooks</li>
+            <li>Implemented responsive, user-centric web interfaces using ReactJS, styled with Bootstrap and CSS and integrated APIs, ensuring exceptional user experience, engagement and interactivity</li>
+            <li>Followed clean coding practices, including version control, creating reusable components, and optimizing time and space complexity</li>
+            <li>Enhanced project stability by 20% and performance by identifying and debugging code issues effectively</li>
           </ul>
           
         </div>
