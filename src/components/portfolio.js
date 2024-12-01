@@ -12,7 +12,7 @@ const projects = [
     title: ' EduEnroll - Seamless Enrollment management system',
     media: EduEnroll,
     link: 'https://edu-enroll.vercel.app',
-    github: 'https://github.com/1-333/EduEnroll',
+    github: 'https://github.com/adityatodi09/EduEnroll',
     tools: ['React', 'React Router', 'Bootstrap', 'LocalStorage', 'Create React App', 'Babel', 'Webpack'],
     description: ( 
       <>
@@ -26,7 +26,7 @@ const projects = [
   {
     title: ' NewsMonkey - Your Daily Dose of Global News',
     media: NewsMonkey,
-    github: 'https://github.com/1-333/NewsMonkey-React',
+    github: 'https://github.com/adityatodi09/NewsMonkey-React',
     tools: ['React', 'React Router', 'JavaScript', 'Fetch API', 'PropTypes', 'Bootstrap'],
     description: ' NewsMonkey is a React-based web app that delivers real-time news from various categories and countries using the News API. It features dynamic routing with React Router, infinite scrolling for seamless content loading, and a sleek, responsive design with Bootstrap. The app allows users to select news based on categories and countries, and includes a progress bar for enhanced user experience.',
   },
@@ -34,7 +34,7 @@ const projects = [
     title: ' TextUtils: Versatile Tool for Text Transformation',
     media: TextUtils,
     link: 'https://text-utils-react-o2pi.vercel.app',
-    github: 'https://github.com/1-333/TextUtils-React',
+    github: 'https://github.com/adityatodi09/TextUtils-React',
     tools: ['ReactJS', 'BootstrapCSS', 'React Router DOM'],
     description: ' Developed a text manipulation utility using ReactJS and Bootstrap CSS. Features include text case conversion, text dark mode. Integrated React Router DOM for smooth navigation between pages.',
   }
